@@ -18,20 +18,20 @@
         <br/><br/>
         <p>Convert a string to uppercase: <%= new String("hello world").toUpperCase()%></p>
         <br/><br/>
-        <p>25 multiplied by 4 equals <%= 25*4 %></p>
+        <p>25 multiplied by 4 equals <%= 25 * 4%></p>
         <br/><br/>
-        <% 
-            for (int i = 1; i <= 5; i++){
+        <%
+            for (int i = 1; i <= 5; i++) {
                 out.println("<br/> I really love you! :" + i);
             }
         %>
         <br/><br/>
-        <%! 
-            String makeItLower(String data){
+        <%!
+            String makeItLower(String data) {
                 return data.toLowerCase();
             }
         %>
-        <p> Lower case "Mai Bao Long": <%= makeItLower("Mai Bao Long") %> <p/>
-        <p>Let's lower example: <%= FunUtils.makeItLower("DieuLinh") %> </p>
+        <p> Lower case "Mai Bao Long": <%= makeItLower("Mai Bao Long")%> <p/>
+        <p>Let's lower example: <%= FunUtils.makeItLower("DieuLinh")%> </p>
     </body>
 </html>
