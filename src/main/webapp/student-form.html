@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Student Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="student-response.jsp">
+            First name: <input type="text" name="firstName"/>
+            <br/><br/>
+            Last name: <input type="text" name="lastName"/>
+            <br/><br/>
+            <select name="country">
+                <option>Vietnam</option>
+                <option>Brazil</option>
+                <option>Laos</option>
+                <option>Thailand</option>
+                <option>Cuba</option>
+                <option>Korea</option>
+            </select>
+            <br/><br/>
+            Favorite Programming Language: <br/>
+
+            <input type="radio" name="favoriteLanguage" value="Java"> Java 
+
+            <input type="radio" name="favoriteLanguage" value="C#"> C# 
+
+            <input type="radio" name="favoriteLanguage" value="Kotlin"> Kotlin 
+
+            <input type="radio" name="favoriteLanguage" value="C++"> C++ 
+
+            <br/><br/>
+            Favorite Animals: <br/>
+
+            <input type="checkbox" name="favoriteAnimals" value="Cat"> Cat 
+
+            <input type="checkbox" name="favoriteAnimals" value="Dog"> Dog
+
+            <input type="checkbox" name="favoriteAnimals" value="Monkey"> Monkey 
+
+            <input type="checkbox" name="favoriteAnimals" value="Fish"> Fish  
+
+            <br/><br/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>
